@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Kashima Brush Demo';
+    src: url('font/Kashima Demo.otf');
+    font-family: 'Harukaze';
+    src: url('font/Harukaze.ttf');
+}
+
 h1 {
   font-family: 'Kashima Brush Demo', sans-serif;
   color: rgb(45, 167, 160);
@@ -5,7 +12,7 @@ h1 {
 
 h2 {
   font-family: 'Harukaze', sans-serif;
-  color: rgb(33, 124, 120);
+  color: rgb(113, 218, 212);
 }
 
 p {
@@ -13,7 +20,7 @@ p {
   letter-spacing: 1px;
   word-spacing: 4px;
   font-size: 20px;
-  color: rgb(33, 124, 120);
+  color: rgb(113, 218, 212);
 }
 
 li{
@@ -23,6 +30,10 @@ li{
 .fab{
   font-size: 50px;
   letter-spacing: 20px;
+}
+.fab:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
 ul{
