@@ -1,10 +1,11 @@
 @font-face {
-    font-family: 'Kashima Brush Demo';
-    src: url('font/Kashima Demo.otf');
     font-family: 'Harukaze';
     src: url('font/Harukaze.ttf');
 }
-
+@font-face {
+    font-family: 'Kashima Brush Demo';
+    src: url('font/Kashima Demo.otf');
+}
 h1 {
   font-family: 'Kashima Brush Demo', sans-serif;
   color: rgb(45, 167, 160);
