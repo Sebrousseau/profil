@@ -1,0 +1,91 @@
+h1 {
+  font-family: 'Kashima Brush Demo', sans-serif;
+  color: rgb(45, 167, 160);
+}
+
+h2 {
+  font-family: 'Harukaze', sans-serif;
+  color: rgb(33, 124, 120);
+}
+
+p {
+  font-family: 'Harukaze', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-size: 20px;
+  color: rgb(33, 124, 120);
+}
+
+li{
+  display: inline-block;
+}
+
+.fab{
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+a {
+  font-family: 'Harukaze', sans-serif;
+  font-size: 20px;
+  color: rgb(113, 218, 212);
+  text-decoration: none;
+}
+
+#btn-chuck{
+  background-color: rgb(153,71,44);
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+#btn-chuck:hover{
+  background-color: rgb(113, 218, 212);
+  padding: 10px 10px;
+  border-radius: 4px;
+  color: rgb(153,71,44);
+}
+
+a:hover{
+  color: rgb(73, 57, 219);
+}
+
+#chucky{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: right;
+}
+
+body{
+  background-image: url("https://i.picsum.photos/id/184/4288/2848.jpg?hmac=l0fKWzmWf6ISTPMEm1WjRdxn35sg6U3GwZLn5lvKhTI");
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+.card{
+  padding: 50px;
+  margin: 10px auto;
+  width: 400px;
+  border-radius: 8px;
+  background-color: rgb(5,2,9,0.3);
+  box-shadow: 2px 2px 2px rgb(112,63,59);
+}
